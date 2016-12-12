@@ -1,0 +1,53 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Incluir</title>
+</head>
+<body>
+    <form action="/Registro/Adiciona" method="post">
+        <fieldset>
+            <legend>Instituição</legend> 
+
+            <label for="nome">Nome:</label>
+            <input id="nome" name="registro.Nome" /> <br />
+
+            <label for="contato">Contato:</label> 
+            <input id="contato" name="registro.Contato" /> <br />
+
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" name="registro.Telefone" /><br />
+
+        </fieldset>
+        <br />
+        <br />
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Data/hora</th>
+                    <th>Conteudo</th>
+                </tr>
+            </thead>
+        </table>
+        <br />
+        <br />
+
+        @*<label for="conteudo">Conteudo:</label>
+        <input id="conteudo" name="registro.Conteudo" />
+
+        <label for="dataHora">DataHora:</label>
+        <input id="dataHora" name="registro.DataHora" />*@
+        
+        @*<input id="btnRegistrar" type="button" value="Registrar Contato" />*@
+        <input type="submit" name="registrar" value=" Registrar contato " />
+        <input id="btnVoltar" type="button" value="Voltar" />
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @*<fieldset>
+        <legend>Instituição</legend>
+
+        <label for="nome">Nome:</label>
+        <input id="nome" name="registro.Nome" /> <br />
+
+        <label for="contato">Contato:</label>
+        <input id="contato" name="registro.Contato" />
+
+        <label for="telefone">Telefone:</label>
+        <input id="telefone" name="registro.Telefone" />
+        
+    </fieldset>*@
+
+    <input type="submit" name="btnRegistrarCtto" value=" Registrar contatos " />
+    <input type="submit" name="btnVoltar" value="Voltar" />
+
+    <table>
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nome</th>
+            </tr>
+            <tr>
+                @R
+            </tr>
+        </thead>
+    </table>
+
+</body>
+</html>

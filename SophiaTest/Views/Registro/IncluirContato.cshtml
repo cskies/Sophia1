@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>IncluirContato</title>
+</head>
+<body>
+    <form action="/">
+
+        <fieldset>
+            <legend><strong>Atendimento</strong></legend>
+            
+            <label for="nome"><strong>Produtos de interesse</strong> </label> <br />
+
+            <input id="chkGestao" type="checkbox" /> 
+            <label for="nome">SophiA Gestão:</label> <br />
+
+            <input id="chkBiblt" type="checkbox" /> 
+            <label for="nome">SophiA Biblioteca:</label> <br />
+
+            <input id="chkAcervo" type="checkbox" /> 
+            <label for="nome">SophiA Acervo:</label> <br />
+
+            <input id="chkCrsLiv" type="checkbox" /> 
+            <label for="nome">SophiA Cursos Livres:</label> <br />
+            
+            @*<label for="nome">Conteúdo</label> <br />
+            <input type="text" name="name" value=" " /> <br />*@ 
+            <p>
+                Conteúdo:
+                <textarea id="conteudo" style="width: 757px; height: 170px" rows="10" cols="80"></textarea>
+            </p>
+
+            <input type="submit" name="registrar" value=" Registrar contato " />
+            <input id="btnVoltar" type="button" value="Voltar" />
+            
+        </fieldset>
+
+    </form>
+</body>
+</html>
